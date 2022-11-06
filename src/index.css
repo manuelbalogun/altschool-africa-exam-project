@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  display: grid;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.container {
+  padding: 2rem;
+}
+
+.repo-card {
+  background: #FCD9E3;
+  padding: 1rem;
+  border: 1px solid #4E5BA6;
+  border-radius: 1rem;
+}
+
+.welcome-text {
+  margin: 2rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul,
+ol,
+li {
+  list-style-type: none;
+}
+
+p {
+  line-height: 1.8;
+}
+
+.repo-title {
+  font-size: 1rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+
+.btn {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 20rem;
+  background-color: #4E5BA6;
+  border-style: none;
+}
+
+.btn-tag {
+  border-radius: 3rem;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 8px;
+  padding-right: 8px;
+  background-color: #4E5BA6;
+  color: white;
+  border-style: none;
+}
+
+.btn-tag-outline {
+  border-radius: 3rem;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-style: none;
+  font-size: 0.7rem;
+}
+
+.profile-image {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 20rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.repo-topics {
+  display: flex;
+  gap: 4px;
+}
+
+.repo-stats {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  margin-top: 1rem;
+}
+
+.repo-header-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.repo-profile-details {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin-top: 2rem;
+}
+
+.card-footer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  justify-content: space-between;
+}
+
+.profile-lang {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
