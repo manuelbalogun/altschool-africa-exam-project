@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Loading from "./Loading";
 import Profile from "./Profile";
+import {Suspense} from "react";
 
 function App() {
   const [items, setItems] = useState([]);
@@ -32,11 +33,13 @@ function App() {
       {!items ? (
         <Loading />
       ) : (
-        <div>
-          {items.map((item) => (
-            <Profile key={item.id} {...item} />
-          ))}
-        </div>
+        <Suspense>
+          <div>
+            {items.map((item) => (
+              <Profile key={item.id} {...item} />
+            ))}
+          </div>
+        </Suspense>
       )}
     </>
   );
