@@ -33,7 +33,7 @@ function App() {
       {!items ? (
         <Loading />
       ) : (
-        <Suspense fallback={<p>Loading...</p>}>
+        <Suspense fallback={<Loading />}>
           <div>
             {items.map((item) => (
               <Profile key={item.id} {...item} />
