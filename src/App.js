@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import Loading from "./Loading";
 import Profile from "./Profile";
-import {Suspense} from "react";
 
 function App() {
   const [items, setItems] = useState([]);
