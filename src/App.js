@@ -19,7 +19,6 @@ function App() {
     };
 
     fetchRepos();
-    suspense:true;
   }, [user]);
 
   return (
